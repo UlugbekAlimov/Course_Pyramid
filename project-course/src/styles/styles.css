@@ -38,6 +38,65 @@
       max-width: 1536px;
     }
   }
+  header {
+    background-color: #fff;
+    text-align: left;
+    justify-content:left;
+    /* word-spacing: 200px; */
+  }
+  header h1{
+    color: #07caff;
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 90px;
+    margin-left: 70px;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+  .links {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .links a {
+    text-decoration: none;
+    color: #1f1f1fac;
+    padding: 0 15px;
+    display: inline-block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    padding-right: 30px;
+    margin-right: 10px;
+    gap:0px;
+    margin-bottom: 0px;
+    translate: 0px -7px;
+}
+.links a:hover {
+  color: #07CAff;
+}
+.otviz{
+  position: relative;
+  display: inline-block;
+}
+ .otviz input{
+   justify-content: right;
+   margin-bottom: 12px;
+   background-color: #e7e6e67f;
+   translate: 0px -8px;
+    margin-top: 20px;
+    padding: 10px 130px 10px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 470px;
+    font-size: 1rem;
+}
+.otviz img{
+  position: absolute;
+  left:474px;
+  right: 10px;
+  top: 18px;
+  bottom: 3px;
+}
 .img-section{
   background-image: url('./images/bg-img');
 }
