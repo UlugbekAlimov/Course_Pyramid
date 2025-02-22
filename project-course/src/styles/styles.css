@@ -169,11 +169,13 @@
 .review {
   border: 1px solid #ccc;
   padding: 15px;
+  margin: 20px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 20px;
   min-width: calc(33.33% - 40px); /* Три отзыва в ряд */
+  height: 180px;
   box-sizing: border-box;
   flex-shrink: 0;
 }
