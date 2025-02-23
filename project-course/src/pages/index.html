@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/layout.css" />
   </head>
   <body>
+      <div id="navbar-container"></div> 
+    <div class="container">
+    <div class="img-section">
+        <img src="../images/backraund-image.jpg">
+             <div class="img-text">
+                  <h1>Empower Your <span>Future</span> </h1>
+                  <h3>Unlock your potential with diverse learning opportunities at <span>PYRAMID</span>. </h3>
+            </div>
+             <button> 
+                  <p>Explore Courses</p>
+             </button>
+     </div>
     <h1>Features</h1>
     <div class="every">
       <div style="margin-right: 30px">
@@ -54,5 +67,95 @@
       </div>
     </div>
     <button class="explore">Explore features</button>
-  </body>
+
+     <div class="reviews">
+        <h1>Hear from our awesome users!</h1>
+        <div class="reviews-container">
+            <div class="reviews-wrapper">
+                <div class="review">
+                    <img src="../images/revi-pic1.jfif" alt="Фото пользователя">
+                    <div>
+                        <h3>Alia</h3>
+                        <div class="stars" data-rating="4">
+                            <span data-value="1">&#9733;</span>
+                            <span data-value="2">&#9733;</span>
+                            <span data-value="3">&#9733;</span>
+                            <span data-value="4">&#9733;</span>
+                            <span data-value="5">&#9733;</span>
+                        </div>
+                        <p>Отличный товар, быстрая доставка. Рекомендую!</p>
+                    </div>
+                </div>
+    
+                <div class="review">
+                    <img src="../images/revi-pic2.jfif" alt="Фото пользователя">
+                    <div>
+                        <h3>Мария Петрова</h3>
+                        <div class="stars" data-rating="5">
+                            <span data-value="1">&#9733;</span>
+                            <span data-value="2">&#9733;</span>
+                            <span data-value="3">&#9733;</span>
+                            <span data-value="4">&#9733;</span>
+                            <span data-value="5">&#9733;</span>
+                        </div>
+                        <p>Очень довольна покупкой. Качество на высоте!</p>
+                    </div>
+                </div>
+    
+                <div class="review">
+                    <img src="../images/revi-pic3.jfif" alt="Фото пользователя">
+                    <div>
+                        <h3>Алексей Смирнов</h3>
+                        <div class="stars" data-rating="3">
+                            <span data-value="1">&#9733;</span>
+                            <span data-value="2">&#9733;</span>
+                            <span data-value="3">&#9733;</span>
+                            <span data-value="4">&#9733;</span>
+                            <span data-value="5">&#9733;</span>
+                        </div>
+                        <p>Неплохо, но есть куда расти. Спасибо!</p>
+                    </div>
+                </div>
+    
+                <div class="review">
+                    <img src="../images/revi-pic4.jfif" alt="Фото пользователя">
+                    <div>
+                        <h3>Елена Васильева</h3>
+                        <div class="stars" data-rating="5">
+                            <span data-value="1">&#9733;</span>
+                            <span data-value="2">&#9733;</span>
+                            <span data-value="3">&#9733;</span>
+                            <span data-value="4">&#9733;</span>
+                            <span data-value="5">&#9733;</span>
+                        </div>
+                        <p>Прекрасный сервис, всё понравилось!</p>
+                    </div>
+                </div>
+    
+                <div class="review">
+                    <img src="../images/revi-pic5.jpg" alt="Фото пользователя">
+                    <div>
+                        <h3>Дмитрий Козлов</h3>
+                        <div class="stars" data-rating="2">
+                            <span data-value="1">&#9733;</span>
+                            <span data-value="2">&#9733;</span>
+                            <span data-value="3">&#9733;</span>
+                            <span data-value="4">&#9733;</span>
+                            <span data-value="5">&#9733;</span>
+                        </div>
+                        <p>Не всё понравилось, но спасибо за старания.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="arrows">
+            <button class="arrow left" onclick="moveReviews(-1)">&#10094;</button>
+            <button class="arrow right" onclick="moveReviews(1)">&#10095;</button>
+        </div>
+    
+     </div>
+     <div id="footer-container"></div>
+     <script src="../scripts/main.js"></script>
+</body>
 </html>

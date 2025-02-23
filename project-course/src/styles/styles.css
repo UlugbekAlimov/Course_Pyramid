@@ -89,4 +89,170 @@ padding-bottom: 10px;
 }
 h5{color: gray;
 font-family: Arial, Helvetica, sans-serif;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.img-section {
+  background-image: url('./images/bg-img');
+}
+.img-section span {
+  color: #07caff;
+}
+.img-section img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.img-text h1 {
+  font-size: 4rem;
+  word-spacing: 30px;
+}
+.img-section button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background: #07caff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.reviews {
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.reviews h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+}
+.reviews-container {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+}
+.reviews-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.review {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: calc(33.33% - 40px); /* Три отзыва в ряд */
+  height: 180px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.review h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.stars {
+  color: gold;
+  font-size: 24px;
+}
+.stars span {
+  cursor: pointer;
+}
+.stars .active {
+  color: orange;
+}
+.review p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+.arrows {
+  text-align: center;
+  margin-top: 20px;
+}
+.arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 10px;
+  border-radius: 100%;
+}
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
