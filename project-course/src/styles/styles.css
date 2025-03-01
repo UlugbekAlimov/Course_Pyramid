@@ -165,3 +165,80 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.listing{
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.listing h1{
+  margin: 30px;
+}
+.blocks{
+  width: 450px;
+  height: 240px;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.275);
+  margin: 0px;
+  padding: 8px;
+  margin-left: none;
+  box-shadow: 2px 1px 2px #ccc;
+  display: inline-block;
+  gap: 5px;
+  margin: 5px;
+}
+.blocks h2{
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blocks p{
+  padding: 15px;
+  font-size: larger;
+  padding-left: 20px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blocks button{
+align-items: center;
+width: 400px;
+height: 40px;
+background: #f1f3f5;
+border-radius: 8px;
+margin-right: 2px;
+margin-top: 10px;
+margin-left: 20px;
+color: gray;
+font-size: larger;
+}
+
+.contact{
+  padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.contact h1{
+  padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.contact h2{
+  padding-top: 0px;
+  padding-left: px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+
+}
+.contact i{
+  color: #07caff;
+  font-size: larger;
+  display: inline-block;
+}
+.contact img{
+  display: inline-block;
+}
+.contact a{
+  margin: 30px;
+  font-size: 2rem;
+}
