@@ -30,3 +30,4 @@ document.querySelectorAll('.stars').forEach(starsContainer => {
         }
     });
 });
+
