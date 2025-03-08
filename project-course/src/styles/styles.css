@@ -311,3 +311,60 @@ font-size: larger;
   margin: 30px;
   font-size: 2rem;
 }
+
+.contactus{
+  width: 100%;
+  height: 500px;
+}
+.contactUS2{  margin-top: -22px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;}
+.contactname{
+  box-shadow: none;
+  border-color: gray;
+  border-radius: 15px;
+  margin-top: 40px;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding:20px;
+  height: 50px;
+  box-shadow: 0,1px,2px black;
+
+}
+.Emailcontact {
+  box-shadow: none;
+  border-color: gray;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding:20px;
+  height: 50px;
+}
+.Message{
+  box-shadow: none;
+  border-color: gray;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding:20px;
+  height: 70px;
+}
+.buttonsubmit{
+  box-shadow: none;
+  border-color: gray;
+  border-radius: 15px;
+  margin-top: 40px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #555;
+  height: 60px;
+
+}
