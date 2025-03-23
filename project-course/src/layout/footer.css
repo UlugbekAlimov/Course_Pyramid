@@ -17,24 +17,33 @@ body {
 
 .footer h2 {
   margin: 10px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .footer input {
+  margin-top: 20px;
   padding: 8px;
   width: 200px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.footer button {
-  padding: 8px 12px;
+.btn_footer {
+  padding: 8.5px 12px;
   background: #000dff;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-
+.footer p{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
+}
+.links strong{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
 main {
   flex: 1;
 }
