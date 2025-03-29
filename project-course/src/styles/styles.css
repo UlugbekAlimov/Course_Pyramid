@@ -305,6 +305,9 @@ font-size: larger;
   font-size: larger;
   display: inline-block;
 }
+.iframe{
+  display: inline-block;
+}
 .contact img{
   display: inline-block;
 }
