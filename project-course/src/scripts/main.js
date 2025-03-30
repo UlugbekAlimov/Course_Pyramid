@@ -48,3 +48,5 @@ function loadFooter() {
 
 loadNavbar();
 loadFooter()
+
+

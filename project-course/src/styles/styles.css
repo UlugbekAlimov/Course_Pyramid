@@ -135,6 +135,7 @@
 .stars {
   color: gold;
   font-size: 24px;
+  display: inline-block;
 }
 .stars span {
   cursor: pointer;
@@ -236,7 +237,7 @@ padding-top: 10px;
 padding-bottom: 10px;}
 
 .listing{
-  padding-top: 100px;
+  padding-top: 0px;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 30px;
@@ -280,7 +281,50 @@ margin-left: 20px;
 color: gray;
 font-size: larger;
 }
+.testimonials {
+  background: #f1f3f5;
+  padding: 20px;
+}
 
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonials h2{
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+.testimonial p{
+padding-top: 8px;
+}
+.testimonial span{
+  color: gray;
+}
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial stars {
+  color: gold;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-left: 200px;
+}
 .contact{
   padding-top: 0px;
   padding-left: 60px;
@@ -288,7 +332,7 @@ font-size: larger;
   padding-bottom: 30px;
 }
 .contact h1{
-  padding-top: 100px;
+  padding-top: 0px;
   padding-left: 0px;
   padding-right: 60px;
   padding-bottom: 30px;
@@ -305,6 +349,9 @@ font-size: larger;
   font-size: larger;
   display: inline-block;
 }
+.iframe{
+  display: inline-block;
+}
 .contact img{
   display: inline-block;
 }
@@ -312,12 +359,36 @@ font-size: larger;
   margin: 30px;
   font-size: 2rem;
 }
+.forma {
+  padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.forma h1{
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.forma input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding-left: 20px;
+  font-size: 1rem;
+  border-color: rgb(159, 158, 158);
+}
 
 .contactus{
   width: 100%;
   height: 500px;
 }
-.contactUS2{  margin-top: -22px;
+.contactUS2{  margin-top: 22px;
 
 font-family: Arial, Helvetica, sans-serif;
 font-size: 32px;}
