@@ -85,13 +85,14 @@
   padding-top: 100px;
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .reviews h1{
   text-align: center;
   font-size: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .reviews-container {
   display: flex;
@@ -168,11 +169,14 @@
 }
 
 
-.header{font-size: 55px;
-font-family: Arial, Helvetica, sans-serif;
-display: flex;
-justify-content: center;
-margin-top: 80px;}
+.header{
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: rgba(0, 0, 0, 0.886);
+}
 
 .Features{
   display: flex;
@@ -184,16 +188,18 @@ margin-top: 80px;}
  
 }
 .block_features{
+  border: 1px solid rgba(128, 128, 128, 0.275);
   border-radius:15px ;
   width: 370px;
   height: 448px;
-  box-shadow: 1px 1px 2px black;
+  border: 1px solid rgba(128, 128, 128, 0.275);
+  margin-left: 40px;
   padding: 24px;
 }
 .picture{
   width: 80px;
   height: 80px;
-  background-color: rgb(165, 193, 225);
+  background-color: rgba(165, 193, 225, 0.553);
   border-radius: 20px;
   margin-top: 60px;
   display: flex;
@@ -201,56 +207,87 @@ margin-top: 80px;}
   margin-left: 110px;
   padding: 15px;
 }
-.pictures{ width: 48px;
-height: 48px;}
+.pictures{ 
+  width: 48px;
+  height: 48px;
+}
 .pictures img{width: 100%;
 height: 100%;}
 
 .words{
   margin-top: 100px;
+  color: #333;
 }
-.words2{margin-top: 10px; color: gray;}
-.words3{margin-top: 10px;}
+.words2{
+  margin-top: 20px; 
+  color: #07caff;
+  }
+.words3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333333e6;
+  font-size:0.9rem;
+}
 .direction{  border-radius: 60%;
   display: flex;
   padding: 3px;
   border: none;
-  border: 2px solid black;
-  background-color: rgb(192, 189, 189);
+  background-color: rgba(192, 189, 189, 0.47);
   justify-content: center;
   margin-top: 25px;
 
 }
-.direction:hover{border: none;}
+.direction:hover{
+   border: 2px solid #07caff;
+  }
 .explore {
   display: flex;
   justify-content: center;
   border-radius: 15px;
   border: none;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 660px;
-  font-size: 23px;
+  font-size: 25px;
 padding-left: 20px;
 padding-right: 20px;
-padding-top: 10px;
-padding-bottom: 10px;}
-
-.listing{
+padding-top: 0px;
+padding-bottom: 10px;
+margin-bottom: -30px;
+}
+.explore h3{
+  font-size: smaller;
+  color: #333444;
+  padding-top: 7px;
+}
+.explore:hover{
+  border: 1px solid #07caff;
+}
+.block_featuresing{
   padding-top: 0px;
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 30px;
 }
-.listing h1{
+.block_featuresing h1{
   margin: 30px;
 }
+.listing{
+  padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+.listing h1{
+  padding: 30px;
+  padding-left: 10px;
+}
 .blocks{
+  background-color: #ffffff;
   width: 450px;
   height: 240px;
   border-radius: 8px;
-  border: 1px solid rgba(128, 128, 128, 0.275);
-  margin: 0px;
+  border: 1px solid #07caff;
   padding: 8px;
   margin-left: none;
   box-shadow: 2px 1px 2px #ccc;
@@ -263,11 +300,14 @@ padding-bottom: 10px;}
   font-family: Arial, Helvetica, sans-serif;
 }
 .blocks p{
-  padding: 15px;
+  margin: 15px;
   font-size: larger;
   padding-left: 20px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
+}
+.blocks span{
+  color: #07caff;
 }
 .blocksbutton{
 align-items: center;
@@ -278,8 +318,11 @@ border-radius: 8px;
 margin-right: 2px;
 margin-top: 10px;
 margin-left: 20px;
-color: gray;
+color: #333;
 font-size: larger;
+}
+.blocksbutton:hover{
+  border: 1px solid #07caff;
 }
 .testimonials {
   background: #f1f3f5;
@@ -305,12 +348,13 @@ font-size: larger;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   width: 45%;
+  margin-bottom: 40px;
 }
 .testimonial p{
 padding-top: 8px;
 }
 .testimonial span{
-  color: gray;
+  color: #07caff;
 }
 .testimonial img {
   width: 100px;
@@ -392,6 +436,9 @@ padding-top: 8px;
 
 font-family: Arial, Helvetica, sans-serif;
 font-size: 32px;}
+.contact span{
+  color: #07caff;
+}
 .contactname{
   box-shadow: none;
   border-color: gray;
@@ -439,4 +486,7 @@ font-size: 32px;}
   color: #555;
   height: 60px;
 
+}
+.buttonsubmit:hover{
+  border: 2px solid #07caff;
 }
