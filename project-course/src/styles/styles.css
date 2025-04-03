@@ -73,14 +73,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, 200%);
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
   background: #07caff;
   padding: 10px 20px;
   border-radius: 5px;
 }
-
+.img-section a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
 .reviews {
   padding-top: 100px;
   padding-left: 60px;
@@ -244,7 +246,7 @@ height: 100%;}
   display: flex;
   justify-content: center;
   border-radius: 15px;
-  border: none;
+  border: 1px solid white;
   align-items: center;
   margin-top: 60px;
   margin-left: 660px;
@@ -255,10 +257,11 @@ padding-top: 0px;
 padding-bottom: 10px;
 margin-bottom: -30px;
 }
-.explore h3{
+.explore a{
   font-size: smaller;
   color: #333444;
   padding-top: 7px;
+  text-decoration: none;
 }
 .explore:hover{
   border: 1px solid #07caff;
@@ -489,4 +492,8 @@ font-size: 32px;}
 }
 .buttonsubmit:hover{
   border: 2px solid #07caff;
+}
+.withus{
+  margin-left: 800px;
+  margin-top: -200px;
 }
